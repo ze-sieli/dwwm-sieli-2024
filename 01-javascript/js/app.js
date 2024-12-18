@@ -2,7 +2,7 @@
 const container = document.getElementById("recettes-container");
 
 // Utilisation de la fonction `fetch` pour récupérer/charger le fichier JSON contenant les recettes
-fetch('js/03-les-tableaux-data.json')
+fetch('js/data.json')
 
   // Transforme la réponse en JSON pour l'utiliser comme un objet JavaScript.
   .then(response => response.json())
@@ -75,10 +75,7 @@ fetch('js/03-les-tableaux-data.json')
                       `).join("")}
                   </ol>
 
-                  <!-- Footer avec un bouton -->
-                  <div class="card-footer">
-                      <a href="#" class="btn btn-primary">Voir la recette</a>
-                  </div>
+                  <a href="#" class="btn btn-dark w-100">Voir la recette</a>
               </div>
           </div>
       `;
