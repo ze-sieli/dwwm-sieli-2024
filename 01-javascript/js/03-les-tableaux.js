@@ -1,8 +1,7 @@
 // alert("Fichier chargé");
-
-/* --------------------------------------
-|  --------✨ Les tableaux ✨------------
-----------------------------------------*/
+/* -----------------------------------------------------------------------------
+|  -------------------------- ✨ Les tableaux ✨ -------------------------------
+------------------------------------------------------------------------------*/
 
 // -- Déclarer un tableau
 let monTableau = [];
@@ -31,8 +30,9 @@ monTableauV2 = [
 
 console.log(monTableauV2);
 
-// --------------------------------------------------------------
+//------------------------------------------------------------------------------
 // Création d'un objet en javascript
+//------------------------------------------------------------------------------
 
 let coordonnees = {
     prenom  : "Scottie",
@@ -56,6 +56,7 @@ let annuaireDesApprenants = [
 console.log(annuaireDesApprenants[0][0]);
 console.log(annuaireDesApprenants[0][1]); // Pas très pratique...
 
+//------------------------------------------------------------------------------
 
 let annuaireDesApprenantsV2 = [
   {
@@ -80,6 +81,7 @@ console.log(annuaireDesApprenantsV2[2].prenom);
 console.log(annuaireDesApprenantsV2[0].nom);
 console.log(annuaireDesApprenantsV2);
 
+//------------------------------------------------------------------------------
 
 let contacts = [
   {
@@ -126,14 +128,15 @@ console.log(contacts[1].email);
  * Il est facile à reconnaitre, ce sont des objets dans un tableau
  */
 
-
-/* -----------------------------------
-            ~ ~ CONSIGNE ~ ~
-    
-        Réaliser une structure JSON
-        permettant de stocker des
-        recettes de cuisine.
------------------------------------ */
+/* -----------------------------------------------------------------------------
+|  --------------------------- 🚧 Exercices 🚧 ---------------------------------
+------------------------------------------------------------------------------*/
+/**
+ *      ~ ~ CONSIGNE ~ ~
+ *      Réaliser une structure JSON
+ *      permettant de stocker des
+ *      recettes de cuisine.
+ */
 
 let recettes = [
     {
@@ -225,33 +228,31 @@ console.log(recettes[0].instructions);
 
 console.clear();
 
-
-/*  */
+//------------------------------------------------------------------------------
 
 let couleurs = ["Rouge", "Jaune", "Vert"];
-
 
 // Ajouter un élément à la fin de mon tableau
 couleurs.push("Bleu");
 console.clear();
 console.log(couleurs);
 
+//------------------------------------------------------------------------------
+
 // Ajouter un élément au début de mon tableau
 couleurs.unshift("Orange")
 console.log(couleurs);
 
+//------------------------------------------------------------------------------
 
-
-//=> ["Rouge", "Jaune", "Vert"]
-// Supprimer dernier élément
-
+// Supprimer le dernier élément
 let couleursV2 = ["Rouge", "Jaune", "Vert"];
 
 couleursV2.pop();
 console.clear();
 console.log(couleursV2);
 
-
+//------------------------------------------------------------------------------
 
 //=> ["Rouge", "Jaune", "Vert"]
 // Supprimer le premier élément
@@ -261,3 +262,5 @@ let couleursV3 = ["Rouge", "Jaune", "Vert"];
 couleursV3.shift();
 console.clear();
 console.log(couleursV3);
+
+//------------------------------------------------------------------------------

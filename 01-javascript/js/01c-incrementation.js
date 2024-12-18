@@ -1,6 +1,7 @@
-/* ----------------------------------------------------------------
-|  -------------- Incrémentation / Décrémentation -----------------
-------------------------------------------------------------------*/
+// alert("Fichier chargé");
+/* -----------------------------------------------------------------------------
+|  ---------------- ✨ Incrémentation / Décrémentation ✨ ----------------------
+------------------------------------------------------------------------------*/
 
 // # Incrémentation
 
@@ -16,6 +17,7 @@ nb1 = nb1 + 2;
 nb1 += 2; // J'ajoute + 2 à nb1 => identique à 'nb1 = nb1 + 2;'
 nb1 += 5; // J'ajoute + 5 à nb1 => identique à 'nb1 = nb1 + 5;'
 
+//------------------------------------------------------------------------------
 
 // # Décrémentation
 
@@ -31,9 +33,13 @@ nb2 = nb2 - 2;
 nb2 -= 2;
 nb2 -= 5;
 
+//------------------------------------------------------------------------------
+
 // # Subtilité
 
 nb1 = 0;
 nb1++;
 console.log(nb1++); // Ici javascript affichera la valeur initiale "0" avant incrémentation
-console.log(nb1); // Ici javascript nous affichera la valeur après avoir incrémenté
+console.log(nb1);   // Ici javascript nous affichera la valeur après avoir incrémenté
+
+//------------------------------------------------------------------------------
