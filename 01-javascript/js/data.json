@@ -1,0 +1,71 @@
+[
+  {
+    "nom": "Tiramisu",
+    "categorie": "Desserts",
+    "sousCategorie": "Gateaux",
+    "difficulte": "Facile",
+    "cout": "Abordable",
+    "nbPersonnes": 8,
+    "specialite": "Italien",
+    "imgRecette": "https://ffcuisine.fr/wp-content/uploads/2024/06/1717801337_recette-facile-de-tiramisu-sans-mascarpone-decouvrez-comment-le-reussir-640x362.jpg",
+    "cuisson": {
+      "preparation": 30,
+      "duree": "",
+      "temperature": "",
+      "repos": 120,
+      "unite": "minutes"
+    },
+    "ingredients": [
+      { "nom": "Sucre", "quantite": 80, "unite": "g" },
+      { "nom": "Mascarpone", "quantite": 250, "unite": "g" },
+      { "nom": "Café Expresso", "quantite": 15, "unite": "cl" }
+    ],
+    "ustensiles": [
+      "1 Plat Rectangulaire",
+      "1 Spatule",
+      "1 Saladier"
+    ],
+    "instructions": [
+      {
+        "description": "Séparer les blancs des jaunes...",
+        "photoUrl": "https://recettes.fr/monetape.jpg"
+      },
+      {
+        "description": "Mélanger les jaunes avec le sucre roux...",
+        "photoUrl": "https://recettes.fr/monetape.jpg"
+      },
+      {
+        "description": "Ajouter le mascarpone au Fouet",
+        "photoUrl": "https://recettes.fr/monetape.jpg"
+      }
+    ]
+  },
+  {
+    "nom": "Blaf",
+    "categorie": "Plats",
+    "sousCategorie": "Poissons",
+    "difficulte": "Moyen",
+    "cout": "Abordable",
+    "nbPersonnes": 4,
+    "specialite": "Antillaise",
+    "imgRecette": "https://www.tatiemaryse.com/wp-content/uploads/2015/01/blaff-de-poisson.jpg",
+    "cuisson": {
+      "preparation": 45,
+      "duree": 30,
+      "temperature": "",
+      "repos": "",
+      "total": 75,
+      "unite": "minutes"
+    },
+    "ingredients": [
+      { "nom": "Poisson", "quantite": 4, "unite": "" },
+      { "nom": "Figue", "quantite": 12, "unite": "" }
+    ],
+    "ustensiles": [
+      "1 Canarie",
+      "1 Spatule",
+      "1 Saladier"
+    ],
+    "instructions": []
+  }
+]
