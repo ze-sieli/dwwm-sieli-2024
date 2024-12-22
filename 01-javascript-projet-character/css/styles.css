@@ -1,0 +1,9 @@
+h1 {
+  margin: 5rem 0 2rem 0 !important;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+#character-container {
+  margin: 5rem 0 2rem 0 !important;
+}
