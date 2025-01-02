@@ -11,6 +11,13 @@
 - [Mise en pratique - Correction](javascript-notes/01-types-de-donnees/07-mise-en-pratique-correction.md)
 
 
+## Boucles et conditions :
+
+- [Conditions](javascript-notes/02-boucles-et-conditions/01-conditions.md)
+- [Boucles](javascript-notes/02-boucles-et-conditions/02-boucles.md)
+- [Mise en pratique - Énoncé](javascript-notes/02-boucles-et-conditions/03-mise-en-pratique-enonce.md)
+- [Mise en pratique - Correction](javascript-notes/02-boucles-et-conditions/04-mise-en-pratique-correction.md)
+
 ```
 /* -------------------------------------------------------------------------- */
 ```
