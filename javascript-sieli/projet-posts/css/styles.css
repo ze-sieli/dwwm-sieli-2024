@@ -1,0 +1,14 @@
+.mx-auto > h1 {
+  margin: 5rem 0 2rem 0 !important;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+#post-detail-container {
+  margin: 5rem 0 2rem 0 !important;
+}
+
+.card-title > h1 {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}

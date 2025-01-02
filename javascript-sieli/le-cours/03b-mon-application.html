@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mon App</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">DWWM</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Les bases du JS
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="01-les-variables.html">Variables</a></li>
+                                    <li><a class="dropdown-item" href="01b-la-concatenation.html">Concaténation</a></li>
+                                    <li><a class="dropdown-item" href="01c-incrementation.html">Incrémentation</a></li>
+                                    <li><a class="dropdown-item" href="02-les-operateurs.html">Les opérateurs</a></li>
+                                    <li><a class="dropdown-item" href="03-les-tableaux.html">Les tableaux</a></li>
+                                    <li><a class="dropdown-item" href="03b-mon-application.html">Les recettes (app)</a></li>
+                                    <li><a class="dropdown-item" href="04-les-fonctions.html">Les fonctions</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section class="mt-5">
+                <div class="col-12 col-md-8 mx-auto">
+                    <h1>Mon App</h1>
+                    <div id="recettes-container"></div>
+                    <pre id="script-content" class="mt-5">Chargement en cours...</pre>
+                </div>
+            </section>
+        </div>
+        <script src="js/app.js"></script>
+        <script>
+            const srcScript = 'js/app.js';
+            fetch(srcScript)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Erreur HTTP : ${response.status}`);
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById('script-content').textContent = data;
+                })
+                .catch(error => {
+                    document.getElementById('script-content').textContent = `Impossible de charger le fichier : ${error.message}`;
+                });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
