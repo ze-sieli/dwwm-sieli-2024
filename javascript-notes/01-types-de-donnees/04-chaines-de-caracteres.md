@@ -18,7 +18,7 @@ let aeomc = 'C\'est une bonne situation ça, scribe ?';
 
 Il permet également d'introduire des éléments de formatage du texte comme `\n` pour passer à la ligne et `\t` pour insérer une tabulation.
 
-## 2\. Concaténation Concaténation
+## 2\. Concaténation
 
 L'opérateur `+`, utile pour additionner les nombres, permet de concaténer des chaînes de caractères.
 
